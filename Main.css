@@ -26,8 +26,7 @@ html, body {
 div.mycontainer{
     width: inherit;
     height: inherit;
-    padding: 0;
-    margin-left: 250px;
+    margin:100px;
 }
 .image-upload > input
 {
