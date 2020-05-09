@@ -1,0 +1,731 @@
+ul.dropdown-menu.show{
+    position: absolute;
+    padding: 0px 0px;
+}
+.dropdown-menu{
+    width: 235px;
+    height: 141px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);
+    background-color: #ffffff;
+    position: absolute;
+}
+.drop1{
+    width:235px;
+    height: 46.5px;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+html, body {
+    width: 1280px;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+div.mycontainer{
+    width: inherit;
+    height: inherit;
+    padding: 0;
+    margin-left: 250px;
+}
+.image-upload > input
+{
+    display: none;
+}
+.file-input
+{
+    margin-right:289px;
+}
+.image-upload img
+{
+    height: 45.9px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+input::placeholder{
+    width: 59px;
+    height: 22px;
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bfc3c9;
+}
+.form-group{
+    padding-left: 65px;
+}
+.choose{
+  height: 22px;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.16;
+  letter-spacing: normal;
+  text-align: center;
+  color: #bfc3c9;
+  margin-left: 22px;
+}
+.Submit{
+    width: 255px;
+    height: 73px;
+    border-radius: 37px;
+    border: solid 1px #030d1b;
+    background-color: #030d1b;
+    margin-left: 160px;
+}
+.file{
+    width: 71px;
+    height: 71px;
+    border-radius: 36px;
+    border: solid 1px #030d1b;
+    background-color: #ffffff;
+}
+#submit1{
+    width: 250px;
+    height: 70px;
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #bfc3c9;
+    text-transform: uppercase;
+    padding: 0px 0px;
+}
+#form1{
+    width: 616px;
+    height: 73px;
+    border-radius: 37px;
+    border: solid 1px #030d1b;
+    background-color: #ffffff;
+}
+#Phone{
+    width: 336px;
+    height: 73px;
+    border-radius: 37px;
+    border: solid 1px #030d1b;
+    background-color: #ffffff;
+    margin-right: 25px;
+}
+#postal{
+    width: 255px;
+    height: 73px;
+    border-radius: 37px;
+    border: solid 1px #030d1b;
+    background-color: #ffffff;
+}
+#iop{
+    width: 1280px;
+    height: 9px;
+    background: #0A2244 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 0px;
+}
+nav.navbar.navbar-default{
+    width: 1280px;
+}
+div.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.New-Anchor{
+    width: 51px;
+    height: 21px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
+}
+.dropdown-toggle{
+    top: 98px;
+    left: 531px;
+    width: 51px;
+    height: 21px;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: Regular;
+    letter-spacing: 0px;
+    color: #030D1B;
+    opacity: 1;
+}
+.drop{
+    width: 105px;
+    height: 141px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
+}
+.About-image{
+    width: 1280px;
+    height: 486px;
+    object-fit: contain;
+    background-image: url("Images/About.png");
+}
+.Certi-image{
+    width: 1280px;
+    height: 486px;
+    object-fit: contain;
+    background-image: url("Images/Certif.png");
+}
+.Envir-image{
+    width: 1280px;
+    height: 486px;
+    object-fit: contain;
+    background-image: url("Images/Envir.png");
+}
+.Product-image{
+    width: 1280px;
+    height: 486px;
+    object-fit: contain;
+    background-image: url("Images/Product.png");
+}
+.Social-image{
+    width: 1280px;
+    height: 486px;
+    object-fit: contain;
+    background-image: url("Images/Social 1.png");
+}
+.common{
+    margin-top: 309px;
+    margin-left: 46px;
+    width: 515px;
+    height: 134px;
+    object-fit: contain;
+}
+.About-info{
+    width: 1280px;
+    height: 326px;
+    background-color: #f2f2f2;
+}
+.Certi-info{
+    width:1280px;
+    height: 298px;
+    background-color: #ffffff;
+}
+.Envir-info{
+    width: 1280px;
+    height: 170px;
+    background-color: #ffffff;
+}
+.social-info{
+    width: 1280px;
+    height: 368px;
+    background-color: #ffffff;
+}
+.Product-info{
+    width: 1280px;
+    height: 208px;
+    background-color: #ffffff;
+}
+.Certi-info1{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    padding-left: 46px;
+}
+p.About-info1{
+    padding-left: 64px;
+    padding-top: 54px;
+    margin-bottom: 0px;
+    width: 1220px;
+    height: 323px;
+    opacity: 0.69;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+}
+.Envir-info1{
+    width: 342px;
+    height: 37px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+}
+.social-info1{
+    height: 37px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    padding-left: 46px;
+}
+p.Product-info1{
+    margin-left: 64px;
+    width: 1156px;
+    height: 134px;
+    opacity: 0.69;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    vertical-align: middle;
+}
+p.Certi-info2{
+    width: 1155px;
+    height: 58px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #56667e;
+    padding-left: 50px;
+}
+.Envir-info2{
+    width: 376px;
+    height: 29px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #56667e;
+    padding-left:  60px;
+}
+p.social-info2{
+    width: 1168px;
+    height: 259px;
+    opacity: 0.69;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    padding-left: 46px;
+}
+.container2{
+    width:1280px;
+    height:420px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 595px 685px;
+    grid-row: auto auto;
+}
+.container1{
+    margin: 20px auto;
+    width:1280px;
+    height:1284px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 640px 642px;
+    grid-row: auto auto;
+}  
+.container3{
+    width:1280px;
+    height:608px;
+    background-color:#fff;
+    display:grid;
+    grid-template-columns: 539px 741px;
+    grid-row: auto auto;
+}
+.box7{
+    width: 539px;
+    height: 608px;
+    background-image: url("Images/Career.png");
+}
+.career-info{
+    text-transform: uppercase;
+    height: 37px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0a2244;
+}
+.career-info1{
+    padding-left: 65px;
+    width: 272px;
+    height: 29px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #56667e;
+}
+.box5{
+    width: 595px;
+    height: 420px;
+    text-align: center;
+    background-color: #0a2244;
+}
+.box6{
+    width:685px;
+    height: 420px;
+    background-image: url("Images/Mask Group 1.png");
+    text-align:center;
+}
+.union{
+    width: 278.6px;
+    height: 248.6px;
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.29);
+    margin-top: 85px;
+}
+.box1{
+    width: 640px;
+    height: 642px;
+    object-fit: contain;
+    background-image: url("Images/Sponge.png");
+}
+.box1:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+.box2{
+    width: 640px;
+    height: 642px;
+    object-fit: contain;
+    background-image: url("Images/Billets.png");
+}
+.box2:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+.box3{
+    width: 640px;
+    height: 642px;
+    object-fit: contain;
+    background-image: url("Images/CP.png");
+}
+.box3:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+.box4{
+    width: 640px;
+    height: 642px;
+    object-fit: contain;
+    background-image: url("Images/Plates.png");
+}
+.box4:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5); 
+}
+.head{
+    padding-top: 182px;
+    font-family: Raleway;
+    font-size: 61px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+p.para{
+    text-transform: uppercase;
+    padding-left: 53px;
+    padding-right: 65px;
+    height: 178px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.glance-info1{
+    text-transform: uppercase;
+    height: 61px;
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.glance-info2{
+    width: 532px;
+    height: 173px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #96aac6;
+    padding-left: 65px;
+}
+#heading1{
+    top: 937px;
+    left: 90px;
+    height: 61px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 52px/61px;
+    font-style: ExtraBold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.par{
+    top: 1033px;
+    left: 65px;
+    height: 173px;
+    text-align: center;
+    font: Regular 20px/24px Raleway;
+    letter-spacing: 0px;
+    padding: 2px;
+    color: #96AAC6;
+    opacity: 1;
+    
+}
+#heading2{
+    height: 37px;
+    text-align: center;
+    font: ExtraBold 32px/37px Raleway;
+    letter-spacing: 0px;
+    color: #0A2244;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.col-sm-15{
+    width: 20%;
+float: left;
+}
+.xyz{
+    width: 55%;
+    height: 1px;
+    background-color: #ffffff;
+}
+.abc{
+    width: 40%;
+    height: 1px;
+    background-color: #0a2244;
+}
+.mno{
+    width: 50%;
+    height: 1px;
+    background-color: #96aac6;
+}
+#image{
+    width: 200px;
+    height: 201px;
+    box-shadow: 0 0 15px 0 rgba(10, 34, 68, 0.25);
+    border: solid 15px #ffffff;
+}
+#image1{
+    margin-left: 40px;
+}
+.contact-info{
+    height: 37px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.contact-info1{
+    height: 24px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #96aac6;
+}
+.contact-info2{
+    height: 64px;
+    font-family: Raleway;
+    font-size: 54px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.contact-info3{
+    padding-left: 109px;
+    height: 24px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #96aac6;
+}
+.contact-info4{
+    height: 39px;
+    font-family: Raleway;
+    font-size: 33px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+.contact{
+        background-image: url("Images/OverlayImg.png");
+        height: 635px;
+        width:1280px;
+        padding: 0px;
+        text-align: center;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 300px;
+}
+.col-sm-4{
+    vertical-align: center;
+    padding: 50px;
+}
+.info{
+    width:1280px;
+    height:298px;
+    background-color:white;
+    padding: 0%;
+}
+#swa{
+    height: 21px;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 21px;
+    font-style: Regular;
+    letter-spacing: 0px;
+    color: #030D1B;
+    opacity: 0.48;
+}
+#kri{
+    padding-left: 20px;
+    width: 141px;
+    height: 34px;
+    text-align: left;
+    font-family: Raleway;
+    font-size: 34px;
+    font-style: Regular;
+    letter-spacing: 0px;
+    color: #0A2244;
+    opacity: 0.48;
+}
+.nit{
+    height: 15px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: Medium;
+    letter-spacing: 0px;
+    color: #0A2244;
+    opacity: 1;
+}
+.dfg{
+    padding-left: 15px;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: Regular;
+    letter-spacing: 0px;
+    color: #0A2244;
+    opacity: 0.38;
+}
+#col3{
+    padding-left: 200px;
+}
+.info1{
+    width: 420px;
+    height: 34px;
+    opacity: 0.48;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+}
