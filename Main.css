@@ -155,13 +155,15 @@ div.container-fluid{
     left: 531px;
     width: 51px;
     height: 21px;
-    text-align: left;
     font-family: Raleway;
-    font-size: 21px;
-    font-style: Regular;
-    letter-spacing: 0px;
-    color: #030D1B;
-    opacity: 1;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
 }
 .drop{
     width: 105px;
@@ -437,9 +439,6 @@ p.social-info2{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5); 
-    margin: auto;
-    text-align: center;
-    position: inherit;
     transition: 0.5s ease;
 }
 .box2{
