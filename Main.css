@@ -19,14 +19,14 @@ ul.dropdown-menu.show{
 }
 html, body {
     width: 1280px;
-    margin: 0;
+    margin: auto;
     padding: 0;
     background-color: #ffffff;
 }
 div.mycontainer{
     width: inherit;
     height: inherit;
-    margin:100px;
+    margin:auto;
 }
 .image-upload > input
 {
@@ -437,6 +437,10 @@ p.social-info2{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5); 
+    margin: auto;
+    text-align: center;
+    position: inherit;
+    transition: 0.5s ease;
 }
 .box2{
     width: 640px;
@@ -447,7 +451,8 @@ p.social-info2{
 .box2:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.5); 
+    transform: scale(1.5);
+    transition: 0.5s ease; 
 }
 .box3{
     width: 640px;
@@ -458,7 +463,8 @@ p.social-info2{
 .box3:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.5); 
+    transform: scale(1.5);
+    transition: 0.5s ease; 
 }
 .box4{
     width: 640px;
@@ -469,7 +475,8 @@ p.social-info2{
 .box4:hover{
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
-    transform: scale(1.5); 
+    transform: scale(1.5);
+    transition: 0.5s ease; 
 }
 .head{
     padding-top: 182px;
