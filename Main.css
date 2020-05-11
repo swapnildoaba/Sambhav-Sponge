@@ -567,7 +567,7 @@ p.para{
 }
 .col-sm-15{
     width: 20%;
-float: left;
+    float: left;
 }
 .xyz{
     width: 55%;
@@ -675,47 +675,59 @@ float: left;
     background-color:white;
     padding: 0%;
 }
-#swa{
-    height: 21px;
-    text-align: left;
-    font-family: Raleway;
-    font-size: 21px;
-    font-style: Regular;
-    letter-spacing: 0px;
-    color: #030D1B;
-    opacity: 0.48;
-}
-#kri{
-    padding-left: 20px;
-    width: 141px;
+.info2{
+    width: 105px;
     height: 34px;
-    text-align: left;
-    font-family: Raleway;
-    font-size: 34px;
-    font-style: Regular;
-    letter-spacing: 0px;
-    color: #0A2244;
     opacity: 0.48;
-}
-.nit{
-    height: 15px;
-    text-align: center;
     font-family: Raleway;
-    font-size: 15px;
-    font-style: Medium;
-    letter-spacing: 0px;
-    color: #0A2244;
-    opacity: 1;
-}
-.dfg{
+    font-size: 29px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0a2244;
     padding-left: 15px;
-    text-align: left;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: Regular;
-    letter-spacing: 0px;
-    color: #0A2244;
+}
+.info3{
+    margin-top: 16px;
+    padding-left: 15px;
+    width: 141px;
+    height: 22px;
     opacity: 0.38;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+}
+.info4{
+    height: 22px;
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0a2244;
+}
+.info5{
+    height: 21px;
+    opacity: 0.48;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
 }
 #col3{
     padding-left: 200px;
