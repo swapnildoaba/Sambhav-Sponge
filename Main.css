@@ -76,7 +76,7 @@ input::placeholder{
     color: #bfc3c9;
 }
 .form-group{
-    padding-left: 65px;
+    padding-left: 20px;
 }
 .choose{
   height: 22px;
@@ -143,8 +143,8 @@ input::placeholder{
     border: solid 1px #030d1b;
     background-color: #ffffff;
 }
-#iop{
-    width: 1280px;
+.iop{
+    width: inherit;
     height: 9px;
     background: #0A2244 0% 0% no-repeat padding-box;
     opacity: 1;
@@ -199,31 +199,31 @@ div.container-fluid{
     color: #030d1b;
 }
 .About-image{
-    width: 1280px;
+    width: inherit;
     height: 486px;
     object-fit: contain;
     background-image: url("Images/About.png");
 }
 .Certi-image{
-    width: 1280px;
+    width: inherit;
     height: 486px;
     object-fit: contain;
     background-image: url("Images/Certif.png");
 }
 .Envir-image{
-    width: 1280px;
+    width: inherit;
     height: 486px;
     object-fit: contain;
     background-image: url("Images/Envir.png");
 }
 .Product-image{
-    width: 1280px;
+    width: inherit;
     height: 486px;
     object-fit: contain;
     background-image: url("Images/Product.png");
 }
 .Social-image{
-    width: 1280px;
+    width: inherit;
     height: 486px;
     object-fit: contain;
     background-image: url("Images/Social 1.png");
@@ -236,27 +236,27 @@ div.container-fluid{
     object-fit: contain;
 }
 .About-info{
-    width: 1280px;
-    height: 326px;
+    width: inherit;
+    height: inherit;
     background-color: #f2f2f2;
 }
 .Certi-info{
-    width:1280px;
+    width:inherit;
     height: 298px;
     background-color: #ffffff;
 }
 .Envir-info{
-    width: 1280px;
+    width: inherit;
     height: 170px;
     background-color: #ffffff;
 }
 .social-info{
-    width: 1280px;
+    width: inherit;
     height: 368px;
     background-color: #ffffff;
 }
 .Product-info{
-    width: 1280px;
+    width: inherit;
     height: 208px;
     background-color: #ffffff;
 }
@@ -270,13 +270,12 @@ div.container-fluid{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 46px;
+    padding-left: 20px;
 }
 p.About-info1{
     padding-left: 64px;
     padding-top: 54px;
     margin-bottom: 0px;
-    width: 1220px;
     height: 323px;
     opacity: 0.69;
     font-family: Raleway;
@@ -313,11 +312,10 @@ p.About-info1{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 46px;
+    padding-left: 20px;
 }
 p.Product-info1{
-    margin-left: 64px;
-    width: 1156px;
+    margin-right: 0px;
     height: 134px;
     opacity: 0.69;
     font-family: Raleway;
@@ -332,7 +330,6 @@ p.Product-info1{
     vertical-align: middle;
 }
 p.Certi-info2{
-    width: 1155px;
     height: 58px;
     font-family: Raleway;
     font-size: 24px;
@@ -343,7 +340,7 @@ p.Certi-info2{
     letter-spacing: normal;
     text-align: left;
     color: #56667e;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 .Envir-info2{
     width: 376px;
@@ -360,7 +357,6 @@ p.Certi-info2{
     padding-left:  60px;
 }
 p.social-info2{
-    width: 1168px;
     height: 259px;
     opacity: 0.69;
     font-family: Raleway;
@@ -372,24 +368,24 @@ p.social-info2{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 46px;
+    padding-left: 20px;
 }
 .container2{
-    width:1280px;
+    width:inherit;
     height:420px;
     background-color:#fff;
 }
 .container1{
-    width:1280px;
+    width:inherit;
     height:642px;
     background-color:#fff;
 }  
 .container3{
-    width:1280px;
+    width:inherit;
     height:608px;
     background-color:#fff;
     display:grid;
-    grid-template-columns: 539px 741px;
+    grid-template-columns: 467px 643px;
     grid-row: auto auto;
 }
 #product-row{
@@ -400,9 +396,13 @@ p.social-info2{
     margin-right: 0px;
 }
 .box7{
-    width: 539px;
+    width: inherit;
     height: 608px;
     background-image: url("Images/Career.png");
+}
+.box8{
+    width:inherit;
+    height: 608px;
 }
 .career-info{
     text-transform: uppercase;
@@ -852,7 +852,7 @@ p.para{
     border: solid 15px #ffffff;
 }
 #image1{
-    margin-left: 40px;
+    margin-left: 10px;
 }
 .contact-info{
     height: 37px;
@@ -953,7 +953,7 @@ p.para{
 .contact{
         background-image: url("Images/OverlayImg.png");
         height: 635px;
-        width:1280px;
+        width:inherit;
         padding: 0px;
         text-align: center;
 }
@@ -964,8 +964,8 @@ p.para{
     padding-left: 0px;
 }
 .info{
-    width:1280px;
-    height:298px;
+    width:inherit;
+    height:inherit;
     background-color:white;
     padding: 0%;
 }
