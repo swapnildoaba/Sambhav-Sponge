@@ -370,17 +370,11 @@ p.social-info2{
     width:1280px;
     height:420px;
     background-color:#fff;
-    display:grid;
-    grid-template-columns: 595px 685px;
-    grid-row: auto auto;
 }
 .container1{
     width:1280px;
-    height:1284px;
+    height:642px;
     background-color:#fff;
-    display:grid;
-    grid-template-columns: 640px 642px;
-    grid-row: auto auto;
 }  
 .container3{
     width:1280px;
@@ -389,6 +383,13 @@ p.social-info2{
     display:grid;
     grid-template-columns: 539px 741px;
     grid-row: auto auto;
+}
+#product-row{
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .box7{
     width: 539px;
@@ -422,17 +423,28 @@ p.social-info2{
     text-align: left;
     color: #56667e;
 }
-.box5{
-    width: 595px;
-    height: 420px;
+#glance-info{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+#box5{
+    width: 100%;
+    height: 100%;
     text-align: center;
     background-color: #0a2244;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: left;
 }
-.box6{
-    width:685px;
-    height: 420px;
+#box6{
+    width:100%px;
+    height: 100%;
     background-image: url("Images/Mask Group 1.png");
     text-align:center;
+    float: left;
 }
 .union{
     width: 278.6px;
@@ -440,14 +452,16 @@ p.social-info2{
     box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.29);
     margin-top: 85px;
 }
-.box1{
-    width: 640px;
-    height: 642px;
+#box1{
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     position: relative;
     float: left;
     display: inline-block;
     cursor: pointer;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 .box1-1{
     width: 100%;
@@ -493,29 +507,31 @@ p.social-info2{
     top: 0;
     left: 0;
 }
-.box1:hover .box1-1,
-.box1:focus .box1-1{
+#box1:hover .box1-1,
+#box1:focus .box1-1{
     transform: scale(1.2);
 }
-.box1:hover .box1-1:before,
-.box1:focus .box1-1:before{
+#box1:hover .box1-1:before,
+#box1:focus .box1-1:before{
     display: block;
 }
-.box1:hover span,
-.box1:focus span{
+#box1:hover span,
+#box1:focus span{
     display: block;
 }
-.box1:hover .box1-4{
+#box1:hover .box1-4{
     display: none;
 }
-.box2{
-    width: 640px;
-    height: 642px;
+#box2{
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     position: relative;
     float: left;
     display: inline-block;
     cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .box2-1{
     width: 100%;
@@ -561,30 +577,31 @@ p.social-info2{
     top: 0;
     left: 0;
 }
-.box2:hover .box2-1,
-.box2:focus .box2-1{
+#box2:hover .box2-1,
+#box2:focus .box2-1{
     transform: scale(1.2);
 }
-.box2:hover .box2-1:before,
-.box2:focus .box2-1:before{
+#box2:hover .box2-1:before,
+#box2:focus .box2-1:before{
     display: block;
 }
-.box2:hover span,
-.box2:focus span{
+#box2:hover span,
+#box2:focus span{
     display: block;
 }
-.box2:hover .box2-4{
+#box2:hover .box2-4{
     display: none;
 }
-.box3{
-    width: 640px;
-    height: 642px;
+#box3{
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
     overflow: hidden;
     position: relative;
     float: left;
-    display: inline-block;
     cursor: pointer;
-}
+}   
 .box3-1{
     width: 100%;
     height: 100%;
@@ -629,28 +646,29 @@ p.social-info2{
     top: 0;
     left: 0;
 }
-.box3:hover .box3-1,
-.box3:focus .box3-1{
+#box3:hover .box3-1,
+#box3:focus .box3-1{
     transform: scale(1.2);
 }
-.box3:hover .box3-1:before,
-.box3:focus .box3-1:before{
+#box3:hover .box3-1:before,
+#box3:focus .box3-1:before{
     display: block;
 }
-.box3:hover span,
-.box3:focus span{
+#box3:hover span,
+#box3:focus span{
     display: block;
 }
-.box3:hover .box3-4{
+#box3:hover .box3-4{
     display: none;
 }
-.box4{
-    width: 640px;
-    height: 642px;
+#box4{
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
     overflow: hidden;
     position: relative;
     float: left;
-    display: inline-block;
     cursor: pointer;
 }
 .box4-1{
@@ -697,19 +715,19 @@ p.social-info2{
     top: 0;
     left: 0;
 }
-.box4:hover .box4-1,
-.box4:focus .box4-1{
+#box4:hover .box4-1,
+#box4:focus .box4-1{
     transform: scale(1.2);
 }
-.box4:hover .box4-1:before,
-.box4:focus .box4-1:before{
+#box4:hover .box4-1:before,
+#box4:focus .box4-1:before{
     display: block;
 }
-.box4:hover span,
-.box4:focus span{
+#box4:hover span,
+#box4:focus span{
     display: block;
 }
-.box4:hover .box4-4{
+#box4:hover .box4-4{
     display: none;
 }
 .head{
@@ -936,10 +954,6 @@ p.para{
     height: 300px;
     padding-right: 0px;
     padding-left: 0px;
-}
-.col-sm-4{
-    vertical-align: center;
-    padding: 50px;
 }
 .info{
     width:1280px;
