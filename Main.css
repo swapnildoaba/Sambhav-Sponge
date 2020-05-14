@@ -25,7 +25,7 @@ html, body {
     background-color: #ffffff;
 }
 div.mycontainer{
-    width: inherit;
+    width: 100%;
     height: inherit;
 }
 .image-upload > input
@@ -139,7 +139,7 @@ div.container-fluid{
 }
 .New-Anchor{
     width: 51px;
-    height: 21px;
+    height: 60px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: normal;
@@ -161,8 +161,8 @@ div.container-fluid{
     letter-spacing: normal;
     text-align: left;
     color: #030d1b;
-    margin-left: 30px;
-    margin-right: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .dropdown-toggle{
     top: 98px;
@@ -194,24 +194,28 @@ div.container-fluid{
 }
 .About-image{
     width: 100%;
+    max-width: 100%;
     height: 486px;
     background-image: url("Images/About.png");
     background-size: cover;
 }
 .Certi-image{
     width: 100%;
+    max-width: 100%;
     height: 486px;
     background-size: cover;
     background-image: url("Images/Certif.png");
 }
 .Envir-image{
     width: 100%;
+    max-width: 100%;
     height: 486px;
     background-size: cover;
     background-image: url("Images/Envir.png");
 }
 .Product-image{
     width: 100%;
+    max-width: 100%;
     height: 486px;
     background-size: cover;
     background-image: url("Images/Product.png");
@@ -221,6 +225,7 @@ div.container-fluid{
     height: 486px;
     background-size: cover;
     background-image: url("Images/Social 1.png");
+    max-width: 100%;
 }
 .common{
     margin-top: 309px;
@@ -230,6 +235,8 @@ div.container-fluid{
     object-fit: contain;
 }
 .About-info{
+    height: auto;
+    width: 100%;
     background-color: #f2f2f2;
 }
 .Certi-info{
@@ -268,7 +275,6 @@ p.About-info1{
     padding-left: 10px;
     padding-top: 54px;
     margin-bottom: 0px;
-    height: 323px;
     opacity: 0.69;
     font-family: Raleway;
     font-size: 28px;
