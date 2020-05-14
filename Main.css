@@ -2,12 +2,14 @@ ul.dropdown-menu.show{
     position: absolute;
     padding: 0px 0px;
 }
-.dropdown-menu{
+.dropdown-menu.show{
     width: 235px;
-    height: 141px;
+    height: 139.5px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);
     background-color: #ffffff;
     position: absolute;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 .drop1{
     width:235px;
@@ -15,7 +17,6 @@ ul.dropdown-menu.show{
     text-align: center;
     border-bottom: 0.5px solid black;
     vertical-align: middle;
-    padding-top: 15px;
 }
 html, body {
     width: 1280px;
@@ -26,7 +27,6 @@ html, body {
 div.mycontainer{
     width: inherit;
     height: inherit;
-    margin:auto;
 }
 .image-upload > input
 {
@@ -150,6 +150,20 @@ div.container-fluid{
     text-align: left;
     color: #030d1b;
 }
+#New-Anchor{
+    height: 21px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .dropdown-toggle{
     top: 98px;
     left: 531px;
@@ -165,9 +179,8 @@ div.container-fluid{
     text-align: left;
     color: #030d1b;
 }
-.drop{
-    width: 105px;
-    height: 141px;
+#drop{
+    text-align: center;
     font-family: Raleway;
     font-size: 18px;
     font-weight: normal;
@@ -175,49 +188,48 @@ div.container-fluid{
     font-style: normal;
     line-height: 1.17;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #030d1b;
+    padding-top: 15px;
 }
 .About-image{
-    width: inherit;
+    width: 100%;
     height: 486px;
-    object-fit: contain;
     background-image: url("Images/About.png");
+    background-size: cover;
 }
 .Certi-image{
-    width: inherit;
+    width: 100%;
     height: 486px;
-    object-fit: contain;
+    background-size: cover;
     background-image: url("Images/Certif.png");
 }
 .Envir-image{
-    width: inherit;
+    width: 100%;
     height: 486px;
-    object-fit: contain;
+    background-size: cover;
     background-image: url("Images/Envir.png");
 }
 .Product-image{
-    width: inherit;
+    width: 100%;
     height: 486px;
-    object-fit: contain;
+    background-size: cover;
     background-image: url("Images/Product.png");
 }
 .Social-image{
-    width: inherit;
+    width: 100%;
     height: 486px;
-    object-fit: contain;
+    background-size: cover;
     background-image: url("Images/Social 1.png");
 }
 .common{
     margin-top: 309px;
     margin-left: 46px;
-    width: 515px;
-    height: 134px;
+    height: auto;
+    max-width: 100%;
     object-fit: contain;
 }
 .About-info{
-    width: inherit;
-    height: inherit;
     background-color: #f2f2f2;
 }
 .Certi-info{
@@ -253,7 +265,7 @@ div.container-fluid{
     padding-left: 20px;
 }
 p.About-info1{
-    padding-left: 64px;
+    padding-left: 10px;
     padding-top: 54px;
     margin-bottom: 0px;
     height: 323px;
@@ -352,13 +364,17 @@ p.social-info2{
 }
 .container2{
     width:inherit;
-    height:420px;
+    height: 420px;
+    max-height: 840px;
     background-color:#fff;
+    min-height: 50%;
+    min-width: 75%;
 }
 .container1{
     width:inherit;
-    height:642px;
+    max-height:2496px ;
     background-color:#fff;
+    min-height: 25%;
 }  
 .container3{
     width:inherit;
@@ -369,7 +385,7 @@ p.social-info2{
     grid-row: auto auto;
 }
 #product-row{
-    height: 100%;
+    height: inherit;
     width: 100%;
     float: left;
     margin-left: 0px;
@@ -413,25 +429,31 @@ p.social-info2{
 }
 #glance-info{
     width: 100%;
-    height: 100%;
+    height: inherit;
     float: left;
     margin-right: 0px;
     margin-left: 0px;
 }
 #box5{
     width: 100%;
-    height: 100%;
+    height: 420px;
     text-align: center;
+    overflow: hidden;
+    position: relative;
     background-color: #0a2244;
     padding-left: 0px;
     padding-right: 0px;
     float: left;
 }
 #box6{
-    width:100%;
-    height: 100%;
+    max-width:100%;
+    height: 420px;
     background-image: url("Images/Mask Group 1.png");
+    background-position: center;
+    background-size: cover;
     text-align:center;
+    overflow: hidden;
+    position: relative;
     float: left;
     max-width: 100%;
 }
@@ -443,11 +465,10 @@ p.social-info2{
 }
 #box1{
     width: 100%;
-    height: 100%;
+    height:624px;
     overflow: hidden;
     position: relative;
     float: left;
-    display: inline-block;
     cursor: pointer;
     padding-right: 0px;
     padding-left: 0px;
@@ -513,11 +534,10 @@ p.social-info2{
 }
 #box2{
     width: 100%;
-    height: 100%;
+    height: 624px;
     overflow: hidden;
     position: relative;
     float: left;
-    display: inline-block;
     cursor: pointer;
     padding-left: 0px;
     padding-right: 0px;
@@ -583,7 +603,7 @@ p.social-info2{
 }
 #box3{
     width: 100%;
-    height: 100%;
+    height: 624px;
     padding-right: 0px;
     padding-left: 0px;
     overflow: hidden;
@@ -652,7 +672,7 @@ p.social-info2{
 }
 #box4{
     width: 100%;
-    height: 100%;
+    height: 624px;
     padding-right: 0px;
     padding-left: 0px;
     overflow: hidden;
@@ -760,7 +780,6 @@ p.para{
     color: #ffffff;
 }
 .glance-info2{
-    width: 532px;
     height: 173px;
     font-family: Raleway;
     font-size: 20px;

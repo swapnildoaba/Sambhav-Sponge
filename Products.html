@@ -16,35 +16,31 @@
       <div class="container">
         <hr class="iop">
       </div>
-      <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"><img src="Images/Logo_2.png" alt="" width="253px" height="77px"></a>
-            </div>
-            <ul class="nav navbar-nav menu_nav ml-auto underline">
-              <li class="nav-item active"><a href="index.html" class="New-Anchor">Home</a></li>
-            </ul>
-            <ul class="nav navbar-nav menu_nav ml-auto underline">
-              <li class="nav-item active"><a href="About.html" class="New-Anchor">About</a></li>
-            </ul>
-            <ul class="nav navbar-navmenu_nav ml-auto underline">
-              <li class="nav-item active"><a href="Products.html" class="New-Anchor">Products</a></li>
-            </ul>
-            <ul class="nav navbar-nav menu_nav ml-auto underline">
-              <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Corporate Sustainability<span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <div class="drop1"><li><a href="Envi.html" class="drop">Environment</a></li></div>
-                    <div class="drop1"><li><a href="Certi.html" class="drop">Certificate</a></li></div>
-                    <div class="drop1"><li><a href="Social.html" class="drop">Social Responsibility</a></li></div>
-                  </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav menu_nav ml-auto underline">
-                <li class="nav-item active"><a href="Career.html" class="New-Anchor">Career</a></li>
-            </ul>
-        </div>
-      </nav>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a href="#" class="navbar-brand"><img src="Images/Logo_2.png" alt="" width="253px" height="77px"></a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="index.html" class="nav-item nav-link active" id="New-Anchor">Home</a>
+              <a href="About.html" class="nav-item nav-link active" id="New-Anchor">About</a>
+              <a href="Products.html" class="nav-item nav-link active" id="New-Anchor">Products</a>
+              <a href="Career.html" class="nav-item nav-link active" id="New-Anchor">Career</a>
+              <div class="nav-item dropdown">
+                <a href="#" id="New-Anchor" class="nav-link dropdown-toggle" data-toggle="dropdown">Corporate Sustainability</a>
+                <div class="dropdown-menu">
+                  <div class="drop1"><a href="Envi.html" class="dropdown-item" id="drop">Environment</a></div>
+                  <div class="drop1"><a href="Certi.html" class="dropdown-item" id="drop">Certificate</a></div>
+                  <div class="drop1"><a href="Social.html" class="dropdown-item" id="drop">Social Responsibility</a></div>
+                </div>
+              </div>
+            </div>          
+          </div>
+        </nav>
+      </div>
       <div class="container">
         <div class="Product-image">
           <img src="Images/Group 14.png" class="common">
@@ -62,7 +58,7 @@
       <div class="container">
         <div class="container1">
           <div class="row" id="product-row">
-            <div class="col-sm-6" id="box1" onclick="">
+            <div class="col-sm-6 col-xs-12" id="box1" onclick="">
               <div class="box1-1">
                 <span class="box1-2">
                   <h1 class="head">SPONGE IRON</h1>
@@ -79,7 +75,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6" id="box2" onclick="">
+            <div class="col-sm-6 col-xs-12" id="box2" onclick="">
               <div class="box2-1">
                 <span class="box2-2">
                 <h1 class="head">BILLETS</h1>
@@ -96,13 +92,8 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="container1">
-          <div class="row" id="product-row">
-            <div class="col-sm-6" id="box3" onclick="">
+            <div class="w-100"></div>
+            <div class="col-sm-6 col-xs-12" id="box3" onclick="">
               <div class="box3-1">
                 <span class="box3-2">
                   <h1 class="head">CAPTIVE POWER</h1>
@@ -119,7 +110,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-6" id="box4" onclick="">
+            <div class="col-sm-6 col-xs-12" id="box4" onclick="">
               <div class="box4-1">
                 <span class="box4-2">
                   <h1 class="head">PLATES/STRIPS</h1>
