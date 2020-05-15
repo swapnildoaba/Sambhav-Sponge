@@ -10,6 +10,10 @@
     #drop{
         font-size: 40px!important;
     }
+@media screen and (max-width :577px){
+    #imag{
+        height: 1100px;
+    }
 }
 .dropdown-menu.show{
     width: 235px;
@@ -419,7 +423,7 @@ p.social-info2{
 @media screen and (max-width: 577px){
     .container2
     {
-        min-height: 840px;
+        min-height: 1200px;
     }
 }
 .container2{
@@ -496,13 +500,23 @@ p.social-info2{
 }
 @media screen and (max-width :577px){
     #box5{
-        height: 420px;
+        height: 600px !important;
+    }
+    .glance-info1{
+        font-size: 60px !important;
     }
     .glance-info2{
-        font-size:30px!important;
+        font-size:40px!important;
+        padding-left: 50px !important;
+        padding-right: 50px !important;
     }
     #box6{
-        height: 420px;
+        height: 600px !important;
+    }
+    .union{
+        height: 380px !important;
+        width: 380px !important;
+        margin-top: 120px !important;
     }
 }
 #box5{
@@ -859,7 +873,6 @@ p.para{
     color: #ffffff;
 }
 .glance-info2{
-    height: 173px;
     font-family: Raleway;
     font-size: 20px;
     font-weight: normal;
@@ -871,7 +884,6 @@ p.para{
     color: #96aac6;
 }
 #heading2{
-    height: 37px;
     font-family: Raleway;
     font-size: 32px;
     font-weight: 800;
@@ -907,11 +919,16 @@ p.para{
     box-shadow: 0 0 15px 0 rgba(10, 34, 68, 0.25);
     border: solid 15px #ffffff;
 }
+@media screen and (max-width :577px){
+    #image{
+        height: 250px !important;   
+        margin-top: 50px; 
+    }
+}
 #image1{
     margin-left: 10px;
 }
 .contact-info{
-    height: 37px;
     font-family: Raleway;
     font-size: 32px;
     font-weight: 800;
@@ -1020,14 +1037,44 @@ p.para{
     padding-right: 0px;
     float: left;
 }
+@media screen and (max-width:577px)
+{
+    .row.d-block{
+        height: 600px !important;
+    }
+    #heading2{
+        font-size: 60px !important;
+    }
+    .abc{
+        width: 70%;
+    }
+}
 @media screen and (max-width: 577px){
+    .mno{
+        width: 70%;
+    }
+    .contact-info{
+        font-size: 45px !important;
+    }
     .contact-info1{
-        font-size: 25px!important;    
+        font-size: 30px!important;   
+        margin-bottom: 30px; 
+    }
+    .contact-info2{
+        font-size: 60px !important;
+        margin-bottom: 50px;
     }
     .contact-info3{
-        font-size: 25px!important;
-        padding-top: 38px;
+        font-size: 40px!important;
+        padding-top: 45px;
     }
+    .contact-info4{
+        font-size: 50px !important;   
+    }
+    .contact{
+        height: 900px !important;
+    }
+    
 }
 .contact{
         background-image: url("Images/OverlayImg.png");
@@ -1035,6 +1082,7 @@ p.para{
         width:inherit;
         padding: 0px;
         text-align: center;
+        background-size: cover;
 }
 @media screen and (max-width: 577px) {
     #vl {
