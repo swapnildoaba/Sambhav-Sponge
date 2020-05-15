@@ -105,6 +105,15 @@ input::placeholder{
 .form-group{
     padding-left: 20px;
 }
+@media screen and (max-width :577px){
+    .choose{
+        font-size: 35px !important;
+    }
+    .Submit{
+        text-align: center;
+        margin-left: 400px !important;
+    }
+}
 .choose{
   font-family: Raleway;
   font-size: 23px;
@@ -116,7 +125,7 @@ input::placeholder{
   text-align: left;
   color: #bfc3c9;
   margin-left: 15px;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 .Submit{
     width: 255px;
@@ -124,7 +133,7 @@ input::placeholder{
     border-radius: 37px;
     border: solid 1px #030d1b;
     background-color: #030d1b;
-    margin-left: 160px;
+    margin-left: 80px;
 }
 .file{
     width: 71px;
@@ -148,8 +157,21 @@ input::placeholder{
     text-transform: uppercase;
     padding: 0px 0px;
 }
+@media screen and (max-width :577px){
+    #form1{
+        height: 100px !important;
+    }
+    #Phone{
+        height: 100px !important;
+        width: 100% !important;
+        margin-bottom: 20px !important;
+    }
+    #postal{
+        height: 100px !important;
+        width: 100% !important;
+    }
+}
 #form1{
-    width: 616px;
     height: 73px;
     border-radius: 37px;
     border: solid 1px #030d1b;
@@ -165,7 +187,7 @@ input::placeholder{
     margin-bottom: 5px;
 }
 #postal{
-    width: 255px;
+    width: 336px;
     height: 73px;
     border-radius: 37px;
     border: solid 1px #030d1b;
@@ -467,9 +489,6 @@ p.social-info2{
     width:inherit;
     height:auto;
     background-color:#fff;
-    display:grid;
-    grid-template-columns: 467px 643px;
-    grid-row: auto auto;
 }
 #product-row{
     height: inherit;
@@ -478,18 +497,31 @@ p.social-info2{
     margin-left: 0px;
     margin-right: 0px;
 }
-.box7{
+@media screen and (max-width :577px){
+    #box7{
+        height: 1000px !important;
+    }
+    .career-info{
+        font-size: 60px !important;
+    }
+    .career-info1{
+        font-size: 40px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+#box7{
     width: 100%;
-    height: auto;
+    height: 600px;
+    background-size:cover;
     background-image: url("Images/Career.png");
 }
-.box8{
+#box8{
     width:100%;
     height: auto;
 }
 .career-info{
     text-transform: uppercase;
-    height: 37px;
     font-family: Raleway;
     font-size: 32px;
     font-weight: 800;
@@ -502,8 +534,6 @@ p.social-info2{
 }
 .career-info1{
     padding-left: 65px;
-    width: 272px;
-    height: 29px;
     font-family: Raleway;
     font-size: 24px;
     font-weight: normal;
@@ -511,7 +541,7 @@ p.social-info2{
     font-style: normal;
     line-height: 1.21;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #56667e;
 }
 #glance-info{
@@ -1246,7 +1276,7 @@ p.para{
     vertical-align: middle;
 }
 #row-info3{
-    padding-top: 50px;
+    padding-top: 90px;
     padding-right: 0px;
     padding-left: 50px;
 }
