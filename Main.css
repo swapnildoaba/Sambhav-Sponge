@@ -923,9 +923,8 @@ p.para{
     text-align: center;
     color: #0a2244;
 }
-.col-sm-15{
-    width: 20%;
-    float: left;
+#image2{
+    margin-right: 15px;
 }
 .xyz{
     width: 55%;
@@ -943,19 +942,22 @@ p.para{
     background-color: #96aac6;
 }
 #image{
-    width: 200px;
-    height: 201px;
+    width: 180px;
+    height: 180px;
     box-shadow: 0 0 15px 0 rgba(10, 34, 68, 0.25);
     border: solid 15px #ffffff;
 }
 @media screen and (max-width :577px){
     #image{
-        height: 250px !important;   
+        height: 250px !important; 
+        width: 250px !important;  
         margin-top: 50px; 
+        margin-left: 50px;
     }
 }
-#image1{
-    margin-left: 10px;
+#image2{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .contact-info{
     font-family: Raleway;
@@ -1069,7 +1071,7 @@ p.para{
 @media screen and (max-width:577px)
 {
     .row.d-block{
-        height: 550px !important;
+        height: 850px !important;
     }
     #heading2{
         font-size: 60px !important;
