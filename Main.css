@@ -1,6 +1,15 @@
-ul.dropdown-menu.show{
-    position: absolute;
-    padding: 0px 0px;
+@media screen and (max-width :577px){
+    .dropdown-menu.show{
+        width: 500px!important;
+        height: 279px!important;
+    }
+    .drop1{
+        width: 500px!important;
+        height: 93px!important;
+    }
+    #drop{
+        font-size: 40px!important;
+    }
 }
 .dropdown-menu.show{
     width: 235px;
@@ -16,7 +25,18 @@ ul.dropdown-menu.show{
     height: 46.5px;
     text-align: center;
     border-bottom: 0.5px solid black;
-    vertical-align: middle;
+}
+#drop{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    color: #030d1b;
+    padding-top: 15px;
 }
 html, body {
     width: 1280px;
@@ -132,15 +152,13 @@ input::placeholder{
     opacity: 1;
     margin-top: 0px;
 }
-nav.navbar.navbar-default{
-    width: 1280px;
-}
-div.container-fluid{
-    padding-right: 0px;
-    padding-left: 0px;
+@media screen and (max-width :577px){
+    #New-Anchor{
+        font-size: 40px!important;
+        margin-bottom: 40px;
+    }
 }
 #New-Anchor{
-    height: 21px;
     font-family: Raleway;
     font-size: 18px;
     font-weight: normal;
@@ -181,6 +199,23 @@ div.container-fluid{
     color: #030d1b;
     padding-top: 15px;
 }
+@media screen and (max-width :577px){
+    .About-image{
+        height: 700px!important;
+    }
+    .Certi-image{
+        height: 700px!important;
+    }
+    .Envir-image{
+        height: 700px!important;
+    }
+    .Product-image{
+        height: 700px!important;
+    }
+    .Social-image{
+        height: 700px!important;
+    }
+}
 .About-image{
     width: 100%;
     max-width: 100%;
@@ -215,6 +250,11 @@ div.container-fluid{
     background-size: cover;
     background-image: url("Images/Social 1.png");
     max-width: 100%;
+}
+@media screen and (max-width :577px){
+    .common{
+        margin-top: 500px!important;
+    }
 }
 .common{
     margin-top: 309px;
