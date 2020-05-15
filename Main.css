@@ -10,10 +10,27 @@
     #drop{
         font-size: 40px!important;
     }
+    .navbar-toggler-icon{
+        height: 60px !important;
+        width: 60px !important;
+    }
+    .navbar-brand{
+        height: 200px !important;
+    }
+    #imag1{
+        height:150px !important;
+        width: 420px !important;
+        margin-top: 25px;
+    }
+}
 @media screen and (max-width :577px){
     #imag{
         height: 1100px;
     }
+}
+#imag1{
+    width:253px;
+    height:77px;
 }
 .dropdown-menu.show{
     width: 235px;
@@ -48,8 +65,13 @@ html, body {
     padding: 0;
     background-color: #ffffff;
 }
+@media screen and (max-width :577px){
+    .mycontainer{
+        width: 95%;
+        margin: auto;
+    }
+}
 div.mycontainer{
-    width: 100%;
     height: inherit;
 }
 .image-upload > input
@@ -155,6 +177,7 @@ input::placeholder{
     background: #0A2244 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 @media screen and (max-width :577px){
     #New-Anchor{
@@ -565,13 +588,14 @@ p.social-info2{
     background-image: url("Images/Sponge.png");
     background-position: center;
     background-size: cover;
+    text-align: center;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -o-transition: all .5s;
 }
 .box1-2{
-    padding-top: 180px;
+    padding-top: 160px;
     text-align: center;
     margin: auto;
     top: 0;
@@ -634,6 +658,7 @@ p.social-info2{
     background-image: url("Images/Billets.png");
     background-position: center;
     background-size: cover;
+    text-align: center;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -703,6 +728,7 @@ p.social-info2{
     background-image: url("Images/CP.png");
     background-position: center;
     background-size: cover;
+    text-align: center;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -710,7 +736,7 @@ p.social-info2{
 }
 .box3-2{
     display: none;
-    padding-top: 160px;
+    padding-top: 120px;
     text-align: center;
     margin: auto;
     top: 0;
@@ -772,6 +798,7 @@ p.social-info2{
     background-image: url("Images/Plates.png");
     background-position: center;
     background-size: cover;
+    text-align: center;
     transition: all .5s;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
@@ -779,7 +806,7 @@ p.social-info2{
 }
 .box4-2{
     display: none;
-    padding-top: 160px;
+    padding-top: 120px;
     text-align: center;
     margin: auto;
     top: 0;
@@ -828,6 +855,8 @@ p.social-info2{
 @media screen and (max-width: 576px) {
     p.para{
     font-size: 40px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
     } 
     .head{
         font-size: 80px !important;
@@ -1103,7 +1132,6 @@ p.para{
 }
 .info2{ 
     width: 105px;
-    height: 34px;
     opacity: 0.48;
     font-family: Raleway;
     font-size: 29px;
@@ -1118,7 +1146,6 @@ p.para{
 }
 .info3{
     padding-top: 8px;
-    height: 88px;
     opacity: 0.38;
     font-family: Montserrat;
     font-size: 18px;
@@ -1183,16 +1210,19 @@ p.para{
 }
 @media screen and (max-width: 577px){
     .info5{
-        font-size: 35px;
+        font-size: 40px;
     }
     .info3{
-        font-size: 35px;
+        font-size: 45px;
     }
     .info2{
-        font-size:45px
+        font-size:60px;
+        margin-bottom: 15px;
     }
     .info4{
         font-size: 35px;
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
     #info-col{display: none;}
     /* .info1{
