@@ -234,30 +234,18 @@ div.container-fluid{
     max-width: 100%;
     object-fit: contain;
 }
-.About-info{
+.Common-info{
     height: auto;
     width: 100%;
     background-color: #f2f2f2;
 }
-.Certi-info{
-    width:inherit;
-    height: 298px;
-    background-color: #ffffff;
-}
-.Envir-info{
-    width: inherit;
-    height: 170px;
-    background-color: #ffffff;
-}
-.social-info{
-    width: inherit;
-    height: 368px;
-    background-color: #ffffff;
-}
-.Product-info{
-    width: inherit;
-    height: 208px;
-    background-color: #ffffff;
+@media screen and (max-width :577px){
+    p.Certi-info2{
+        font-size: 40px!important;
+    }
+    .Certi-info1{
+        font-size: 60px!important;
+    }
 }
 .Certi-info1{
     font-family: Raleway;
@@ -271,9 +259,29 @@ div.container-fluid{
     color: #0a2244;
     padding-left: 20px;
 }
+p.Certi-info2{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #56667e;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width :577px){
+    p.About-info1{
+        font-size: 50px!important;
+    }
+}
 p.About-info1{
     padding-left: 10px;
-    padding-top: 54px;
+    padding-top: 30px;
     margin-bottom: 0px;
     opacity: 0.69;
     font-family: Raleway;
@@ -285,64 +293,50 @@ p.About-info1{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
+    padding-bottom: 30px;
 }
-.Envir-info1{
-    width: 342px;
-    height: 37px;
-    font-family: Raleway;
-    font-size: 32px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.16;
-    letter-spacing: normal;
-    text-align: left;
-    color: #0a2244;
-}
-.social-info1{
-    height: 37px;
-    font-family: Raleway;
-    font-size: 32px;
-    font-weight: 800;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.16;
-    letter-spacing: normal;
-    text-align: left;
-    color: #0a2244;
-    padding-left: 20px;
+@media screen and (max-width :577px){
+    p.Product-info1{
+        font-size: 50px!important;
+    }
 }
 p.Product-info1{
-    margin-right: 0px;
-    height: 134px;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-bottom: 0px;
     opacity: 0.69;
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.2;
+    line-height: 1.18;
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    vertical-align: middle;
+    padding-bottom: 30px;
 }
-p.Certi-info2{
-    height: 58px;
+@media screen and (max-width :577px){
+    a.Envir-info2{
+        font-size: 40px!important;
+    }
+    .Envir-info1{
+        font-size: 60px!important;
+    }
+}
+.Envir-info1{
     font-family: Raleway;
-    font-size: 24px;
-    font-weight: normal;
+    font-size: 32px;
+    font-weight: 800;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.21;
+    line-height: 1.16;
     letter-spacing: normal;
     text-align: left;
-    color: #56667e;
+    color: #0a2244;
     padding-left: 20px;
 }
 .Envir-info2{
-    width: 376px;
-    height: 29px;
     font-family: Raleway;
     font-size: 24px;
     font-weight: normal;
@@ -352,10 +346,32 @@ p.Certi-info2{
     letter-spacing: normal;
     text-align: left;
     color: #56667e;
-    padding-left:  60px;
+    padding-left: 80px; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+@media screen and (max-width :577px){
+    p.social-info2{
+        font-size: 40px!important;
+    }
+    .social-info1{
+        font-size: 60px!important;
+    }
+}
+.social-info1{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    padding-left: 20px;
 }
 p.social-info2{
-    height: 259px;
     opacity: 0.69;
     font-family: Raleway;
     font-size: 24px;
@@ -366,15 +382,24 @@ p.social-info2{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 20px;
+    padding-left: 20px; 
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;  
+}
+@media screen and (max-width: 577px){
+    .container2
+    {
+        min-height: 840px;
+    }
 }
 .container2{
     width:inherit;
     height: 420px;
-    max-height: 840px;
+    /* max-height: 840px; */
     background-color:#fff;
-    min-height: 50%;
-    min-width: 75%;
+    /* min-height: 840px; */
+    /* min-width: 75%; */
 }
 .container1{
     width:inherit;
@@ -440,6 +465,17 @@ p.social-info2{
     margin-right: 0px;
     margin-left: 0px;
 }
+@media screen and (max-width :577px){
+    #box5{
+        height: 420px;
+    }
+    .glance-info2{
+        font-size:30px!important;
+    }
+    #box6{
+        height: 420px;
+    }
+}
 #box5{
     width: 100%;
     height: 420px;
@@ -464,6 +500,7 @@ p.social-info2{
     max-width: 100%;
 }
 .union{
+    /* width:50%; */
     width: 278.6px;
     height: 248.6px;
     box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.29);
@@ -896,7 +933,7 @@ p.para{
     color: #ffffff;
 }
 .contact-info3{
-    padding-top: 48px;
+    padding-top: 45px;
     font-family: Raleway;
     font-size: 20px;
     font-weight: normal;
@@ -906,6 +943,13 @@ p.para{
     letter-spacing: normal;
     text-align: left;
     color: #96aac6;
+}
+@media screen and (max-width: 576px) {
+    #row-contact4 p{
+    text-align: right !important;
+    padding-right: 50px;
+    }
+    
 }
 .contact-info4{
     padding-top: 33px;
@@ -922,11 +966,19 @@ p.para{
 #contact-info5{
     padding-left: 0px;
     padding-right: 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+@media screen and (max-width: 576px) {
+    #row-contact {
+        padding-top:0 !important;
+    }
 }
 #row-contact{
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    padding-top: 7%;
 }
 #row-contact1{
     width: 100%;
@@ -955,12 +1007,26 @@ p.para{
     padding-right: 0px;
     float: left;
 }
+@media screen and (max-width: 577px){
+    .contact-info1{
+        font-size: 25px!important;    
+    }
+    .contact-info3{
+        font-size: 25px!important;
+        padding-top: 38px;
+    }
+}
 .contact{
         background-image: url("Images/OverlayImg.png");
         height: 635px;
         width:inherit;
         padding: 0px;
         text-align: center;
+}
+@media screen and (max-width: 577px) {
+    #vl {
+        display:none;
+    }
 }
 #vl {
     border-left: 2px solid white;
@@ -1018,6 +1084,7 @@ p.para{
 .info5{
     height: 21px;
     opacity: 0.48;
+    margin-bottom: 0;
     font-family: Raleway;
     font-size: 18px;
     font-weight: normal;
@@ -1052,6 +1119,27 @@ p.para{
 #info-col{
     padding-left: 0px;
     padding-right: 0px;
+}
+@media screen and (max-width: 577px){
+    .info5{
+        font-size: 35px;
+    }
+    .info3{
+        font-size: 35px;
+    }
+    .info2{
+        font-size:45px
+    }
+    .info4{
+        font-size: 35px;
+    }
+    #info-col{display: none;}
+    /* .info1{
+       display: none;
+    }
+    .footer_logo{
+        display:none;
+    } */
 }
 #row-info1{
     width: 100%;
