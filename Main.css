@@ -1069,7 +1069,7 @@ p.para{
 @media screen and (max-width:577px)
 {
     .row.d-block{
-        height: 600px !important;
+        height: 550px !important;
     }
     #heading2{
         font-size: 60px !important;
@@ -1186,7 +1186,7 @@ p.para{
     padding-left: 200px;
 }
 .info1{
-    padding-top: 62px;
+    padding-top: 50px;
     opacity: 0.48;
     font-family: Raleway;
     font-size: 25px;
@@ -1244,7 +1244,7 @@ p.para{
     vertical-align: middle;
 }
 #row-info3{
-    padding-top: 113px;
+    padding-top: 50px;
     padding-right: 0px;
     padding-left: 50px;
 }
@@ -1253,7 +1253,7 @@ p.para{
     padding-right: 0px;
 }
 #row-info5{
-    padding-top: 92px;
+    padding-top: 50px;
     padding-right: 0px;
     padding-left: 100px;
 }
