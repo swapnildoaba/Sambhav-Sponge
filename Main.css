@@ -557,7 +557,7 @@ p.social-info2{
     -o-transition: all .5s;
 }
 .box1-2{
-    padding-top: 225px;
+    padding-top: 180px;
     text-align: center;
     margin: auto;
     top: 0;
@@ -591,7 +591,7 @@ p.social-info2{
 }
 #box1:hover .box1-1,
 #box1:focus .box1-1{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #box1:hover .box1-1:before,
 #box1:focus .box1-1:before{
@@ -660,7 +660,7 @@ p.social-info2{
 }
 #box2:hover .box2-1,
 #box2:focus .box2-1{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #box2:hover .box2-1:before,
 #box2:focus .box2-1:before{
@@ -696,7 +696,7 @@ p.social-info2{
 }
 .box3-2{
     display: none;
-    padding-top: 182px;
+    padding-top: 160px;
     text-align: center;
     margin: auto;
     top: 0;
@@ -729,7 +729,7 @@ p.social-info2{
 }
 #box3:hover .box3-1,
 #box3:focus .box3-1{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #box3:hover .box3-1:before,
 #box3:focus .box3-1:before{
@@ -765,7 +765,7 @@ p.social-info2{
 }
 .box4-2{
     display: none;
-    padding-top: 182px;
+    padding-top: 160px;
     text-align: center;
     margin: auto;
     top: 0;
@@ -798,7 +798,7 @@ p.social-info2{
 }
 #box4:hover .box4-1,
 #box4:focus .box4-1{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #box4:hover .box4-1:before,
 #box4:focus .box4-1:before{
@@ -811,9 +811,17 @@ p.social-info2{
 #box4:hover .box4-4{
     display: none;
 }
+@media screen and (max-width: 576px) {
+    p.para{
+    font-size: 40px !important;
+    } 
+    .head{
+        font-size: 80px !important;
+    }
+}
 .head{
     font-family: Raleway;
-    font-size: 61px;
+    font-size: 60px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -827,7 +835,6 @@ p.para{
     text-transform: uppercase;
     padding-left: 53px;
     padding-right: 65px;
-    height: 178px;
     font-family: Raleway;
     font-size: 20px;
     font-weight: normal;
@@ -863,39 +870,17 @@ p.para{
     text-align: center;
     color: #96aac6;
 }
-#heading1{
-    top: 937px;
-    left: 90px;
-    height: 61px;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 52px/61px;
-    font-style: ExtraBold;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    opacity: 1;
-}
-.par{
-    top: 1033px;
-    left: 65px;
-    height: 173px;
-    text-align: center;
-    font: Regular 20px/24px Raleway;
-    letter-spacing: 0px;
-    padding: 2px;
-    color: #96AAC6;
-    opacity: 1;
-    
-}
 #heading2{
     height: 37px;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
     text-align: center;
-    font: ExtraBold 32px/37px Raleway;
-    letter-spacing: 0px;
-    color: #0A2244;
-    text-transform: uppercase;
-    opacity: 1;
+    color: #0a2244;
 }
 .col-sm-15{
     width: 20%;
@@ -977,8 +962,7 @@ p.para{
     #row-contact4 p{
     text-align: right !important;
     padding-right: 50px;
-    }
-    
+    } 
 }
 .contact-info4{
     padding-top: 33px;
