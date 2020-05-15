@@ -40,7 +40,8 @@ div.mycontainer{
 {
     height: 45.9px;
     cursor: pointer;
-    padding-top: 20px;
+    margin-top: 12px;
+    margin-left: 5px;
 }
 input::placeholder{
     width: 59px;
@@ -59,17 +60,17 @@ input::placeholder{
     padding-left: 20px;
 }
 .choose{
-  height: 22px;
   font-family: Raleway;
-  font-size: 19px;
+  font-size: 23px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.16;
   letter-spacing: normal;
-  text-align: center;
+  text-align: left;
   color: #bfc3c9;
-  margin-left: 22px;
+  margin-left: 15px;
+  padding-top: 10px;
 }
 .Submit{
     width: 255px;
@@ -115,6 +116,7 @@ input::placeholder{
     border: solid 1px #030d1b;
     background-color: #ffffff;
     margin-right: 25px;
+    margin-bottom: 5px;
 }
 #postal{
     width: 255px;
@@ -136,19 +138,6 @@ nav.navbar.navbar-default{
 div.container-fluid{
     padding-right: 0px;
     padding-left: 0px;
-}
-.New-Anchor{
-    width: 51px;
-    height: 60px;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
-    text-align: left;
-    color: #030d1b;
 }
 #New-Anchor{
     height: 21px;
@@ -409,7 +398,7 @@ p.social-info2{
 }  
 .container3{
     width:inherit;
-    height:608px;
+    height:auto;
     background-color:#fff;
     display:grid;
     grid-template-columns: 467px 643px;
@@ -423,13 +412,13 @@ p.social-info2{
     margin-right: 0px;
 }
 .box7{
-    width: inherit;
-    height: 608px;
+    width: 100%;
+    height: auto;
     background-image: url("Images/Career.png");
 }
 .box8{
-    width:inherit;
-    height: 608px;
+    width:100%;
+    height: auto;
 }
 .career-info{
     text-transform: uppercase;
