@@ -90,10 +90,10 @@ div.mycontainer{
     margin-left: 5px;
 }
 input::placeholder{
-    width: 59px;
-    height: 22px;
+    width: 150px;
+    height: 100px;
     font-family: Raleway;
-    font-size: 19px;
+    font-size: 25px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -106,6 +106,9 @@ input::placeholder{
     padding-left: 20px;
 }
 @media screen and (max-width :577px){
+    input::placeholder{
+        font-size: 40px !important;
+    }
     .choose{
         font-size: 35px !important;
     }
@@ -158,17 +161,45 @@ input::placeholder{
     padding: 0px 0px;
 }
 @media screen and (max-width :577px){
+    .file{
+        width: 100px !important;
+        height: 100px !important;
+        border-radius: 49px !important;
+    }
     #form1{
         height: 100px !important;
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
     }
     #Phone{
         height: 100px !important;
         width: 100% !important;
+        margin-top: 20px !important;
         margin-bottom: 20px !important;
     }
     #postal{
         height: 100px !important;
         width: 100% !important;
+        margin-top: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    #box8{
+        margin: 10%;
+    }
+    .image-upload img{
+        height: 65px !important;
+        margin-left: 10px !important;
+    }
+    .file{
+        margin-top: 20px !important;
+    }
+    .Submit{
+        height: 100px !important;
+        margin-left: 350px !important;
+    }
+    #submit1{
+        font-size: 40px !important;
+        margin-top: 20px !important;
     }
 }
 #form1{
