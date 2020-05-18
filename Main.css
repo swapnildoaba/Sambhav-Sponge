@@ -32,6 +32,9 @@
         height: 1100px;
     }
 }
+#imag{
+    width: 100%;
+}
 #imag1{
     width:253px;
     height:77px;
@@ -64,7 +67,7 @@
     padding-top: 15px;
 }
 html, body {
-    width: 1280px;
+    width: 1480px;
     padding: 0;
     margin: auto;
     background-color: #ffffff;
@@ -254,7 +257,7 @@ input::placeholder{
     text-align: left;
     color: #030d1b;
     margin-left: 50px;
-    margin-right: 30px;
+    margin-right: 80px;
 }
 .dropdown-toggle{
     top: 98px;
@@ -1016,8 +1019,8 @@ p.para{
     }
 }
 #image2{
-    margin-left: 20px;
-    margin-right: 15px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 .contact-info{
     font-family: Raleway;
