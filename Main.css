@@ -1,3 +1,7 @@
+.container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 @media screen and (max-width :577px){
     .dropdown-menu.show{
         width: 500px!important;
@@ -61,8 +65,8 @@
 }
 html, body {
     width: 1280px;
-    margin: auto;
     padding: 0;
+    margin: auto;
     background-color: #ffffff;
 }
 @media screen and (max-width :577px){
@@ -101,6 +105,10 @@ input::placeholder{
     letter-spacing: normal;
     text-align: left;
     color: #bfc3c9;
+}
+#care{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .form-group{
     padding-left: 20px;
