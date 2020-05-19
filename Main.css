@@ -969,7 +969,7 @@ p.para{
 }
 .glance-info2{
     font-family: Raleway;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -1018,8 +1018,14 @@ p.para{
         margin-left: 50px;
     }
 }
+#image1{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 #image2{
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 20px;
 }
 .contact-info{
@@ -1269,10 +1275,7 @@ p.para{
     margin-left: 0px;
     margin-right: 0px;
 }
-#info-col{
-    padding-left: 0px;
-    padding-right: 0px;
-}
+
 @media screen and (max-width: 577px){
     .info5{
         font-size: 40px;
@@ -1296,6 +1299,13 @@ p.para{
     .footer_logo{
         display:none;
     } */
+}
+#info-col{
+    padding-left: 30px;
+}
+.footer_logo{
+    height: 100px;
+    width: 350px;
 }
 #row-info1{
     width: 100%;
