@@ -63,15 +63,18 @@
     padding-top: 15px;
 }
 html, body {
-    width: 1350px;
-    padding: 0;
-    margin: auto;
-    background-color: #ffffff;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 @media screen and (max-width :577px){
     .mycontainer{
-        width: 95%;
+        max-width: 100%;
         margin: auto;
+    }
+    html,body{
+        width: 1280px !important;
+        max-width: none !important;
+        overflow-x: unset !important;
     }
 }
 div.mycontainer{
@@ -252,8 +255,8 @@ input::placeholder{
     letter-spacing: normal;
     text-align: left;
     color: #030d1b;
-    margin-left: 50px;
-    margin-right: 45px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 .dropdown-toggle{
     top: 98px;
