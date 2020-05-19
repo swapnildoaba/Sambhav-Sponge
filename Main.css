@@ -36,20 +36,19 @@
     height:77px;
 }
 .dropdown-menu.show{
-    width: 250px;
+    width: 240px;
     height: 139.5px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);
+    box-shadow: 0 3px 6px 0 rgba(219, 186, 186, 0.31);
     background-color: #ffffff;
     position: absolute;
     padding-bottom: 0px;
     padding-top: 0px;
-    margin-left: 60px;
+    margin-left: 45px;
+    margin-top: 5px;
 }
 .drop1{
-    width:2px;
     height: 46.5px;
     text-align: center;
-    border-bottom: 0.5px solid black;
 }
 #drop{
     font-family: Raleway;
@@ -245,7 +244,7 @@ input::placeholder{
 }
 #New-Anchor{
     font-family: Raleway;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -270,19 +269,6 @@ input::placeholder{
     letter-spacing: normal;
     text-align: left;
     color: #030d1b;
-}
-#drop{
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
-    text-align: center;
-    color: #030d1b;
-    padding-top: 15px;
 }
 @media screen and (max-width :577px){
     .About-image{
