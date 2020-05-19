@@ -67,7 +67,7 @@
     padding-top: 15px;
 }
 html, body {
-    width: 1400px;
+    width: 1350px;
     padding: 0;
     margin: auto;
     background-color: #ffffff;
@@ -257,7 +257,7 @@ input::placeholder{
     text-align: left;
     color: #030d1b;
     margin-left: 50px;
-    margin-right: 80px;
+    margin-right: 60px;
 }
 .dropdown-toggle{
     top: 98px;
