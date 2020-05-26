@@ -28,6 +28,47 @@
         height: 1100px;
     }
 }
+@media screen and (max-width :577px){
+    #map{
+        height: 1100px !important;
+    }
+    .map-info1{
+        font-size: 50px!important;
+    }
+    .map-info2{
+        font-size: 40px!important;
+    }
+}
+#map{
+    width: 100%;
+    height: 700px;
+    border: 0px;
+}
+.map-info1{
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.map-info2{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #030d1b;
+    padding-left: 50px;
+}
 #imag{
     width: 100%;
 }
