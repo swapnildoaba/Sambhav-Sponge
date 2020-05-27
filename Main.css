@@ -33,20 +33,22 @@
         height: 1100px !important;
     }
     .map-info1{
-        font-size: 50px!important;
+        font-size: 70px!important;
     }
     .map-info2{
-        font-size: 40px!important;
+        font-size: 50px!important;
     }
 }
 #map{
     width: 100%;
     height: 700px;
     border: 0px;
+    margin-left:40px;
+    padding-right: 40px;
 }
 .map-info1{
     font-family: Raleway;
-    font-size: 28px;
+    font-size:40px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -59,7 +61,7 @@
 }
 .map-info2{
     font-family: Raleway;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
