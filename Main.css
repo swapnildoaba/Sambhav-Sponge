@@ -24,27 +24,26 @@
     }
 }
 @media screen and (max-width :577px){
-    #imag{
-        height: 1100px;
-    }
-}
-@media screen and (max-width :577px){
     #map{
         height: 1100px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
     .map-info1{
         font-size: 70px!important;
+        padding-left: 20px !important;
     }
     .map-info2{
         font-size: 50px!important;
+        padding-left: 20px !important;
     }
 }
 #map{
     width: 100%;
     height: 700px;
     border: 0px;
-    margin-left:40px;
-    padding-right: 40px;
+    padding-left:30px;
+    padding-right: 30px;
 }
 .map-info1{
     font-family: Raleway;
@@ -70,6 +69,11 @@
     text-align: left;
     color: #030d1b;
     padding-left: 50px;
+}
+@media screen and (max-width :577px){
+    #imag{
+        height: 1100px;
+    }
 }
 #imag{
     width: 100%;
@@ -278,6 +282,14 @@ input::placeholder{
     border: solid 1px #030d1b;
     background-color: #ffffff;
 }
+.line{
+    height: 2px;
+    width: 95%;
+    background: #0A2244 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .iop{
     height: 9px;
     background: #0A2244 0% 0% no-repeat padding-box;
@@ -394,6 +406,14 @@ input::placeholder{
     width: 100%;
     background-color: #f2f2f2;
 }
+.Certi-info{
+    height: auto;
+    width: 100%;
+}
+.Envir-info{
+    height: auto;
+    width: 100%;
+}
 @media screen and (max-width :577px){
     p.Certi-info2{
         font-size: 40px!important;
@@ -404,19 +424,19 @@ input::placeholder{
 }
 .Certi-info1{
     font-family: Raleway;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.16;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #0a2244;
-    padding-left: 20px;
+    text-transform: uppercase;
 }
 p.Certi-info2{
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -424,15 +444,38 @@ p.Certi-info2{
     letter-spacing: normal;
     text-align: left;
     color: #56667e;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.Certi-info3{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0a2244;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+#Cert{
+    margin-right: 150px;
+    margin-left: 100px;
+}
+#Cert1{
+    text-align: center;
 }
 @media screen and (max-width :577px){
     p.About-info1{
         font-size: 50px!important;
     }
+}
+.About-info{
+    width: 100%;
+    height: 580px;
+    background-color: #f1f7ff;
 }
 p.About-info1{
     padding-left: 10px;
@@ -440,7 +483,7 @@ p.About-info1{
     margin-bottom: 0px;
     opacity: 0.69;
     font-family: Raleway;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -449,6 +492,44 @@ p.About-info1{
     text-align: left;
     color: #0a2244;
     padding-bottom: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.About-info2{
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0a2244;
+}
+.About-info3{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+.About-info4{
+    opacity: 0.69;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.68;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+}
+.line1{
+    height: 3px;
+    width: 40%;
+    background: #0A2244 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 @media screen and (max-width :577px){
     p.Product-info1{
@@ -481,7 +562,7 @@ p.Product-info1{
 }
 .Envir-info1{
     font-family: Raleway;
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -489,22 +570,44 @@ p.Product-info1{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 20px;
+    margin-left: 50px;
+    padding-top: 40px;
 }
 .Envir-info2{
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #56667e;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Envir-info3{
+    opacity: 0.69;
+    font-family: Raleway;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.21;
     letter-spacing: normal;
     text-align: left;
-    color: #56667e;
-    padding-left: 80px; 
-    padding-top: 10px;
-    padding-bottom: 30px;
-    margin-bottom: 0px;
+    color: #0a2244;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.Envir-image1{
+    text-align: center;
+    width: 93.9px;
+    height: 144.6px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 @media screen and (max-width :577px){
     p.social-info2{
@@ -514,9 +617,15 @@ p.Product-info1{
         font-size: 60px!important;
     }
 }
+.social-info{
+    width: 100%;
+    height: 549px;
+    opacity: 0.82;
+    background-color: #0a2244;
+}
 .social-info1{
     font-family: Raleway;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -524,12 +633,12 @@ p.Product-info1{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 20px;
+    margin-left: 40px;
 }
 p.social-info2{
     opacity: 0.69;
     font-family: Raleway;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -537,10 +646,39 @@ p.social-info2{
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
-    padding-left: 20px; 
+    margin-left: 40px; 
+    margin-right: 40px;
     padding-top: 10px;
     padding-bottom: 30px;
     margin-bottom: 0px;  
+}
+.social-info3{
+    font-family: Raleway;
+    font-size: 51px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 46px;
+    padding-top: 57px;
+}
+.social-info4{
+    margin-left: 367px;
+    margin-right: 150px;
+}
+.social-info5{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
 }
 @media screen and (max-width: 577px){
     .container2
@@ -549,7 +687,7 @@ p.social-info2{
     }
 }
 .container2{
-    height: 420px;
+    height: 500px;
     /* max-height: 840px; */
     background-color:#fff;
     /* min-height: 840px; */
@@ -648,7 +786,7 @@ p.social-info2{
 }
 #box5{
     width: 100%;
-    height: 420px;
+    height: 500px;
     text-align: center;
     overflow: hidden;
     position: relative;
@@ -659,7 +797,7 @@ p.social-info2{
 }
 #box6{
     max-width:100%;
-    height: 420px;
+    height: 500px;
     background-image: url("Images/Mask Group 1.png");
     background-position: center;
     background-size: cover;
@@ -674,7 +812,7 @@ p.social-info2{
     width: 278.6px;
     height: 248.6px;
     box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.29);
-    margin-top: 85px;
+    margin-top: 135px;
 }
 #box1{
     width: 100%;
@@ -1043,31 +1181,32 @@ p.para{
     background-color: #96aac6;
 }
 #image{
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     box-shadow: 0 0 15px 0 rgba(10, 34, 68, 0.25);
     border: solid 15px #ffffff;
+    margin-left: 20px;
 }
 @media screen and (max-width :577px){
     #image{
-        height: 250px !important; 
-        width: 250px !important;  
+        height: 350px !important;
+        width: 350px !important;  
         margin-top: 50px; 
         margin-left: 50px;
     }
 }
 #image1{
-    width: 100%;
     height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 40px;
+    margin-right: 50px;
     margin-bottom: 80px;
 }
 #image2{
-    margin-left: 25px;
-    margin-right: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    vertical-align: center;
 }
 .contact-info{
     font-family: Raleway;
