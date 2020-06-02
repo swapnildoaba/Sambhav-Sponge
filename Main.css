@@ -284,7 +284,7 @@ input::placeholder{
 }
 .line{
     height: 2px;
-    width: 95%;
+    width: 98%;
     background: #0A2244 0% 0% no-repeat padding-box;
     opacity: 1;
     margin-top: 0px;
@@ -406,6 +406,10 @@ input::placeholder{
     width: 100%;
     background-color: #f2f2f2;
 }
+.About-info5{
+    height: auto;
+    width: 100%;
+}
 .Certi-info{
     height: auto;
     width: 100%;
@@ -420,6 +424,13 @@ input::placeholder{
     }
     .Certi-info1{
         font-size: 60px!important;
+    }
+    .Certi-info3{
+        font-size: 40px !important;
+    }
+    #Cert2{
+        width: 300px;
+        height: 220px;
     }
 }
 .Certi-info1{
@@ -440,7 +451,7 @@ p.Certi-info2{
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.21;
+    line-height: 1.50;
     letter-spacing: normal;
     text-align: left;
     color: #56667e;
@@ -453,7 +464,7 @@ p.Certi-info2{
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.21;
+    line-height: 1.50;
     letter-spacing: normal;
     text-align: center;
     color: #0a2244;
@@ -466,15 +477,29 @@ p.Certi-info2{
 }
 #Cert1{
     text-align: center;
+    margin-bottom: 50px;
+}
+#Cert2{
+    width: 220px;
+    height: 150px;
 }
 @media screen and (max-width :577px){
     p.About-info1{
         font-size: 50px!important;
     }
+    .About-info2{
+        font-size: 60px !important;
+    }
+    .About-info4{
+        font-size: 50px !important;
+    }
+    .line1{
+        width: 50% !important;
+    }
 }
 .About-info{
     width: 100%;
-    height: 580px;
+    height: auto;
     background-color: #f1f7ff;
 }
 p.About-info1{
@@ -487,7 +512,7 @@ p.About-info1{
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.18;
+    line-height: 1.50;
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
@@ -531,22 +556,175 @@ p.About-info1{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.line2{
+    height: 3px;
+    width: 70%;
+    background: #0A2244 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.prod1{
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0a2244;
+}
+.prod2{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0a2244;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+#prod3{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+#prod4{
+    width: 280px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #6fabff;
+    margin-right: 31px;
+    margin-left: 50px;
+}
+#prod5{
+    vertical-align: middle;
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.line3{
+    height: 3px;
+    width: 70%;
+    background: #0A2244 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.detail{
+    width: 100%;
+    height: auto;
+    background-color: #f1f7ff;
+}
+.detail1{
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #0a2244;
+}
+.detail3{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+.detail4{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a2244;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#detail5{
+    padding-top: 200px;
+}
+.dec{
+    width: 100%;
+    height: auto;
+}
+.dec1{
+    font-family: Raleway;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    color: #0a2244;
+    margin-left: 40px;
+}
+.dec2{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b1c4df;
+    margin-right:50px;
+    margin-left: 40px;
+}
+.dec3{
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
 @media screen and (max-width :577px){
     p.Product-info1{
         font-size: 50px!important;
     }
 }
 p.Product-info1{
-    padding-left: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding-top: 30px;
     margin-bottom: 0px;
     opacity: 0.69;
     font-family: Raleway;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.18;
+    line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
@@ -558,6 +736,9 @@ p.Product-info1{
     }
     .Envir-info1{
         font-size: 60px!important;
+    }
+    .Envir-info3{
+        font-size: 45px !important;
     }
 }
 .Envir-info1{
@@ -594,7 +775,7 @@ p.Product-info1{
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.21;
+    line-height: 1.5;
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
@@ -611,15 +792,24 @@ p.Product-info1{
 }
 @media screen and (max-width :577px){
     p.social-info2{
-        font-size: 40px!important;
+        font-size: 50px!important;
     }
     .social-info1{
-        font-size: 60px!important;
+        font-size: 70px!important;
+    }
+    .social-info3{
+        font-size: 70px !important;
+    }
+    .social-info4{
+        margin-right: 120px !important;
+    }
+    .social-info5{
+        font-size: 50px !important;
     }
 }
 .social-info{
     width: 100%;
-    height: 549px;
+    height: auto;
     opacity: 0.82;
     background-color: #0a2244;
 }
@@ -629,7 +819,7 @@ p.Product-info1{
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.16;
+    line-height: 1.50;
     letter-spacing: normal;
     text-align: left;
     color: #0a2244;
@@ -647,10 +837,7 @@ p.social-info2{
     text-align: left;
     color: #0a2244;
     margin-left: 40px; 
-    margin-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    margin-bottom: 0px;  
+    margin-right: 40px;  
 }
 .social-info3{
     font-family: Raleway;
@@ -675,7 +862,7 @@ p.social-info2{
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.21;
+    line-height: 1.68;
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
@@ -694,16 +881,15 @@ p.social-info2{
     /* min-width: 75%; */
 }
 .container1{
-    max-height:2496px ;
-    background-color:#fff;
-    min-height: 25%;
+    height: auto;
+    width: 100%;
 }  
 .container3{
     height:auto;
     background-color:#fff;
 }
 #product-row{
-    height: inherit;
+    height:auto;
     width: 100%;
     float: left;
     margin-left: 0px;
@@ -1134,7 +1320,7 @@ p.para{
     text-transform: uppercase;
     height: 61px;
     font-family: Raleway;
-    font-size: 52px;
+    font-size: 45px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -1145,7 +1331,7 @@ p.para{
 }
 .glance-info2{
     font-family: Raleway;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -1153,16 +1339,19 @@ p.para{
     letter-spacing: normal;
     text-align: center;
     color: #96aac6;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #heading2{
     font-family: Raleway;
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.16;
     letter-spacing: normal;
     text-align: center;
+    text-transform: uppercase;
     color: #0a2244;
 }
 .xyz{
@@ -1172,7 +1361,7 @@ p.para{
 }
 .abc{
     width: 40%;
-    height: 1px;
+    height: 3px;
     background-color: #0a2244;
 }
 .mno{
