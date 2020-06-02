@@ -564,6 +564,17 @@ p.About-info1{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+@media screen and (max-width :577px){
+    .prod1{
+        font-size: 60px !important;
+    }
+    .prod2{
+        font-size: 40px !important;
+    }
+    #prod5{
+        font-size: 35px !important;
+    }
+}
 .prod1{
     font-family: Raleway;
     font-size: 45px;
@@ -592,16 +603,16 @@ p.About-info1{
     margin-right: 120px;
 }
 #prod3{
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 #prod4{
     width: 280px;
     padding-right: 0px;
     padding-left: 0px;
     background-color: #6fabff;
-    margin-right: 31px;
-    margin-left: 50px;
+    text-align: center;
+    border: 20px solid white;
 }
 #prod5{
     vertical-align: middle;
@@ -623,6 +634,20 @@ p.About-info1{
     opacity: 1;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+@media screen and (max-width :577px){
+    .detail1{
+        font-size: 60px !important;
+    }
+    .detail3{
+        font-size: 40px !important;
+    }
+    .detail4{
+        font-size: 40px !important;
+    }
+    #detail5{
+        padding-top: 30px!important;
+    }
 }
 .detail{
     width: 100%;
@@ -673,7 +698,15 @@ p.About-info1{
 #detail5{
     padding-top: 200px;
 }
-.dec{
+@media screen and (max-width :577px){
+    .dec1{
+        font-size: 60px !important;
+    }
+    .dec2{
+        font-size: 40px !important;
+    }
+}
+.dec4{
     width: 100%;
     height: auto;
 }
@@ -782,6 +815,19 @@ p.Product-info1{
     margin-left: 50px;
     margin-right: 70px;
 }
+#circle
+{
+  width:300px;
+  height:300px;
+  border:1px solid black;
+  border-radius:100%;
+  background-color: #f1f7ff;
+  text-align: center;
+  margin: auto;
+}
+#circle:hover{
+    background-color:  #a1c3f0;
+}
 .Envir-image1{
     text-align: center;
     width: 93.9px;
@@ -789,6 +835,7 @@ p.Product-info1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 70px;
 }
 @media screen and (max-width :577px){
     p.social-info2{
@@ -891,7 +938,6 @@ p.social-info2{
 #product-row{
     height:auto;
     width: 100%;
-    float: left;
     margin-left: 0px;
     margin-right: 0px;
 }
